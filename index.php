@@ -14,7 +14,8 @@
     <div class="container">
         <div class="card card-container">
             <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
-            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+             <img id="profile-img" class="profile-img-card"
+                src="https://scontent.fhan3-1.fna.fbcdn.net/v/t1.15752-9/104587143_695223427692886_833467285454362747_n.png?_nc_cat=110&_nc_sid=b96e70&_nc_ohc=si3VNHm-VVgAX9zfC_k&_nc_ht=scontent.fhan3-1.fna&oh=de9c17309b4d7a5eafa88663d836a3de&oe=5F1841EA" />
             <p id="profile-name" class="profile-name-card"></p>
             <form class="form-signin" action="Connect.php" method="POST" accept-charset="utf-8">
                 <span id="reauth-email" class="reauth-email"></span>
