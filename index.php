@@ -18,9 +18,9 @@
             <p id="profile-name" class="profile-name-card"></p>
             <form class="form-signin" action="Connect.php" method="POST" accept-charset="utf-8">
                 <span id="reauth-email" class="reauth-email"></span>
-                <input type="text" id="inputEmail" class="form-control" placeholder="Email address" required autofocus
+                <input type="text" id="inputEmail" class="form-control"  placeholder="Username - admin" required autofocus
                     name="username">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password - 123123" required
                     name="pass">
                 <div id="remember" class="checkbox">
                     <label>
