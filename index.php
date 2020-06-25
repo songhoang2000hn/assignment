@@ -28,7 +28,7 @@
                         <input type="checkbox" value="remember-me"> Remember me
                     </label>
                 </div>
-                <input class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</input>
+                <input class="btn btn-lg btn-primary btn-block btn-signin" type="submit" value="Sign in"></input>
             </form><!-- /form -->
             <a href="#" class="forgot-password">
                 Forgot the password?
