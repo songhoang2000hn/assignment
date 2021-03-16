@@ -5687,10 +5687,23 @@ html.hc-nav-yscroll{overflow-y:scroll}body.hc-nav-open{overflow:hidden;position:
             </div>
         </div>
         <div class="lmao"></div>
+        <iframe
+            name="blank_f1d8cdeebe8e604"
+            width="60px"
+            tabindex="-1"
+            data-testid="bubble_iframe"
+            frameborder="0"
+            allowtransparency="true"
+            allowfullscreen="true"
+            scrolling="no"
+            allow="encrypted-media"
+            src="https://www.facebook.com/v10.0/plugins/customer_chat/bubble"
+            style="margin: 0px 12px; padding: 0px; position: fixed; z-index: 2147483644; bottom: 74px; top: auto; height: 60px; width: 60px; border-radius: 29px; box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px; background: none; display: block; left: 12px;"
+        ></iframe>
         <style type="text/css">
     /*Call contact*/
 
-.fixed_custom_contact{position:fixed;bottom:150px;left:10px;z-index:99}
+.fixed_custom_contact{position:fixed;bottom:130px;left:10px;z-index:99}
 .fixed_custom_contact ul, .fixed_custom_contact ul li{list-style: none;}
 .fixed_custom_contact li a{display:block;width:48px;height:48px;border-radius:50%;text-indent:-9999px;margin-bottom:10px}
 .fixed_custom_contact li.chat_zalo a{background:url('/Content/Images/messenger.png') center center no-repeat;background-size:100%!important}
@@ -5713,4 +5726,16 @@ div.wpcf7-validation-errors{border:2px solid #f7e700;clear:both}
 }
         </style>
     </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        var iframe = $('iframe[style="margin: 0px 12px; padding: 0px; position: fixed; z-index: 2147483644; bottom: 74px; top: auto; height: 60px; width: 60px; border-radius: 29px; box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px; background: none; display: block; left: 12px;"]')
+        var svg = $('svg[viewBox="0 0 60 60"]')
+        console.log(iframe);
+        console.log(svg);
+        console.log("123");
+        $(iframe).css({'height':'48px', 'width':'48px', 'margin': '0', 'left': '10px'});
+        $(svg).css({'height':'45px', 'width':'45px'});
+    });
+    </script>
 </html>
